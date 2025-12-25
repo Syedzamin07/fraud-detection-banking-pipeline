@@ -26,3 +26,10 @@ Success is defined by the balance of risk mitigation and customer experience:
 * **Version Control:** GitHub (Direct Colab Integration)
 * **Data Handling:** Pandas, NumPy
 * **Modeling:** Scikit-Learn (Future)
+
+
+### **⚠️ Data Complexity & Real-World Constraints**
+While this project utilizes a cleaned dataset for modeling, it is important to note that in a production environment (such as the one I navigated at **State Street**), additional complexities would be the primary focus:
+* **Data Ingestion:** Dealing with complex SQL joins across fragmented legacy systems.
+* **Feature Engineering:** Handling missing timestamps and asynchronous data flows.
+* **Model Drift:** Monitoring how fraud patterns evolve in real-time, requiring constant retraining and validation checks.
